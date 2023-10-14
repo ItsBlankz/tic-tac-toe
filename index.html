@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tic-Tac-Toe</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="app.js"></script>
+        <link
+            rel="shortcut icon"
+            href="Assets/tic-tac-toe.png"
+            type="image/x-icon"
+        />
+    </head>
+
+    <body>
+        <main>
+            <h1>Tic-Tac-Toe</h1>
+            <div id="top-container">
+                <div id="turn-container">
+                    <span>Next:</span>
+                    <img src="" alt="" />
+                </div>
+                <button id="reset">
+                    <img src="Assets/reload.png" alt="" srcset="" />
+                </button>
+            </div>
+            <div id="grid-container">
+                <button id="00"></button>
+                <button id="01"></button>
+                <button id="02"></button>
+
+                <button id="10"></button>
+                <button id="11"></button>
+                <button id="12"></button>
+
+                <button id="20"></button>
+                <button id="21"></button>
+                <button id="22"></button>
+            </div>
+            <div id="bottom-container">
+                <div id="p1-info">
+                    <p>X (Player 1)</p>
+                    <p id="p1-score">0</p>
+                </div>
+                <div id="p2-info">
+                    <p>O (Player 2)</p>
+                    <p id="p2-score">0</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
