@@ -126,7 +126,7 @@ reset.addEventListener("click", () => {
     for (let btn of btns) {
         btn.innerHTML = "";
     }
-    choosePlayer();
+    isTurn = choosePlayer();
 });
 
 for (let btn of btns) {
