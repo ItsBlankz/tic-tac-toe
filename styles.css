@@ -75,7 +75,7 @@ img {
 
 span {
     font-size: 30px;
-    padding-right: 5px;
+    padding-left: 5px;
 }
 
 button {
@@ -119,4 +119,8 @@ button {
 
 #p2-info {
     background-color: #f2b236;
+}
+
+.hidden {
+    display: none;
 }
